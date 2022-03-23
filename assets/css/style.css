@@ -9,7 +9,7 @@
 # Color Codes Vars
 --------------------------------------------------------------*/
 :root {
-	--main-orange: #ff7221;
+	--main-orange: #f9d816;
 	--light-orange: #ff833b;
 	--white: #ffffff;
 	--translucid-white: rgba(255, 255, 255, 0.7);
@@ -141,12 +141,12 @@ h6 {
 }
 #topbar .contact-info i {
 	font-style: normal;
-	color: var(--white);
+	color: var(--dark-grey);
 }
 #topbar .contact-info i a,
 #topbar .contact-info i span {
 	padding-left: 5px;
-	color: var(--white);
+	color: var(--dark-grey);
 }
 #topbar .contact-info i a {
 	line-height: 0;
@@ -154,17 +154,17 @@ h6 {
 	transition: 0.3s;
 }
 #topbar .contact-info i a:hover {
-	color: var(--white);
+	color: var(--dark-grey);
 	text-decoration: underline;
 }
 #topbar .social-links a {
-	color: var(--translucid-white);
+	color: var(--dark-grey);
 	line-height: 0;
 	transition: 0.3s;
 	margin-left: 20px;
 }
 #topbar .social-links a:hover {
-	color: var(--white);
+	color: var(--dark-grey);
 }
 
 /*--------------------------------------------------------------
