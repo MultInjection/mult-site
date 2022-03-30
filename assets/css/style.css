@@ -466,6 +466,7 @@ h6 {
 	background-size: cover;
 	position: relative;
 }
+
 #hero:before {
 	content: '';
 	background: rgba(255, 255, 255, 0.3);
@@ -541,6 +542,7 @@ h6 {
 }
 @media (max-width: 768px) {
 	#hero {
+		background-position: -500px;
 		height: 100vh;
 	}
 	#hero h1 {
