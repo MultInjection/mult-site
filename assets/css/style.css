@@ -114,6 +114,7 @@ h6 {
 		transform: rotate(360deg);
 	}
 }
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -148,6 +149,31 @@ h6 {
 	visibility: visible;
 	opacity: 1;
 }
+
+/*--------------------------------------------------------------
+# WhatsApp button
+--------------------------------------------------------------*/
+.whatsapp {
+	position: fixed;
+	width:60px;
+	height:60px;
+	bottom:70px;
+	right: 10px;
+	z-index: 1000;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  	font-size:30px;
+	box-shadow: 2px 2px 3px var(--primary-bg-shadow);
+}
+
+.whatsapp i {
+	font-size: 28px;
+	color: var(--secondary-contrast);
+	line-height: 0;
+}
+
 
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
